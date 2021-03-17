@@ -1,0 +1,24 @@
+.Headernav{
+  width: 100%;
+  height: 50px;
+  background: green;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Logo{
+  color: white;
+}
+
+.navlinkcon{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+ 
+}
+.Logo{
+  width: 30%;
+}
+.nav_links{
+  color: white;
+}
