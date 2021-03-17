@@ -33,6 +33,10 @@ const Header = () => {
             {
               datause ?
                 (<div
+                  style={{
+                    cursor: "pointer",
+                    color: "white"
+                  }}
                   onClick={() => {
                     app.auth().signOut()
                   }}
