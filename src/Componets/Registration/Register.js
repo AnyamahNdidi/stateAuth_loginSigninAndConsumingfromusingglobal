@@ -175,6 +175,13 @@ function Register() {
                     display: "flex",
 
                   }}
+
+                  value={email}
+                  onChange={
+                    (e) => {
+                      setEmail(e.target.value)
+                    }
+                  }
                 />
                 <br />
 
@@ -188,6 +195,12 @@ function Register() {
                     display: "flex",
 
                   }}
+                  value={password}
+                  onChange={
+                    (e) => {
+                      setpassword(e.target.value)
+                    }
+                  }
                 />
                 <br />
 
