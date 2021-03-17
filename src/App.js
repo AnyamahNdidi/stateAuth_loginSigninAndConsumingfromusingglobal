@@ -7,6 +7,7 @@ import Homescreen from './Componets/HomeScreen/Homescreen';
 import Course from './Componets/Course/Course';
 import Study from './Componets/Study/Study';
 import { AppProvider } from "./Componets/ContextApi/AuthState"
+import PrivateRoute from "./Componets/PrivateRoute/PrivateRoute"
 
 
 function App() {
@@ -21,7 +22,7 @@ function App() {
             <Route exact path="/register" component={Register} />
             <Route exact path="/home" component={Header} />
             <Route exact path="/" component={Homescreen} />
-            <Route exact path="/course" component={Course} />
+            <PrivateRoute exact path="/course" component={Course} />
             <Route exact path="/study" component={Study} />
           </Switch>
         </Router>
